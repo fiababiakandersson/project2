@@ -8,6 +8,7 @@
   --green: #abffc1;
   --lightGrey: #d9d9d9;
   --darkGrey: #949494;
+  --backgroundGrey: #f4f4f4;
 }
 /* colour variables */
 
@@ -15,7 +16,4 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
-  /* test */
-  background-color: var(--darkPurple);
 }
