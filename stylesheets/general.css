@@ -147,7 +147,7 @@ input:focus {
   background-color: var(--green);
 }
 
-.p-filtered>p {
+.p-filtered>p , .p-filtered1>p {
   font-size: 14px;
   font-weight: 400;
 }
