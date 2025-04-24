@@ -14,12 +14,11 @@
 /* colour variables */
 
 body {
-  max-width: 600px;
-  margin: 0 auto;
-  background-color: var(--lighterGrey);
   font-family: "Lexend", sans-serif; /* font-weight: Use a value from 100 to 900 */
   font-optical-sizing: auto;
   font-style: normal;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 * {

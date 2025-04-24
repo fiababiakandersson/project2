@@ -1,3 +1,7 @@
+body {
+  background-color: var(--backgroundGrey);
+}
+
 .tabItem:nth-child(3) {
   background-color: var(--backgroundGrey);
 }
