@@ -1,0 +1,7 @@
+body {
+  background-color: white;
+}
+
+.tabItem:nth-child(1) {
+  background-color: white;
+}

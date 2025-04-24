@@ -8,14 +8,56 @@
   --green: #abffc1;
   --lightGrey: #d9d9d9;
   --darkGrey: #949494;
+  --backgroundGrey: #f4f4f4;
+  --lighterGrey: #ffffff;
 }
 /* colour variables */
+
+body {
+  font-family: "Lexend", sans-serif; /* font-weight: Use a value from 100 to 900 */
+  font-optical-sizing: auto;
+  font-style: normal;
+  max-width: 600px;
+  margin: 0 auto;
+}
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
 
-  /* test */
-  background-color: var(--darkPurple);
+header {
+  background-color: var(--lightPurple);
+  align-items: center;
+  position: relative;
+  display: flex;
+  height: 70px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-left: 1.3rem;
+}
+
+.menuTabs {
+  position: absolute;
+  display: flex;
+  gap: 10px;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+}
+
+.tabItem {
+  width: 120px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px 5px 0 0;
+  background-color: var(--lightPurple);
+  cursor: pointer;
 }
