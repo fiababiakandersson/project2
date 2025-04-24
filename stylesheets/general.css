@@ -17,3 +17,37 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+header {
+  background-color: var(--lightPurple);
+  align-items: center;
+  position: relative;
+  display: flex;
+  height: 70px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-left: 1.3rem;
+}
+
+.menuTabs {
+  position: absolute;
+  display: flex;
+  gap: 10px;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+}
+
+.tabItem {
+  width: 120px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px 5px 0 0;
+  background-color: var(--backgroundGrey);
+}
