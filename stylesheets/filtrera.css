@@ -5,3 +5,30 @@ body {
 .tabItem:nth-child(1) {
   background-color: white;
 }
+
+.searchAndFiltersContainer {
+  position: relative;
+  width: 560px;
+}
+
+.searchAndFiltersContainer > input[type="text"] {
+  border: 1px solid black;
+  border-radius: 30px;
+  padding-left: 40px;
+  padding: 10px;
+  width: 100%;
+}
+
+.searchAndFiltersContainer > input[type="text"]::placeholder,
+.searchAndFiltersContainer > input[type="text"]:focus {
+  padding-left: 1.5rem;
+}
+
+.searchAndFiltersContainer > .search-icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+}
