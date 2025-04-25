@@ -27,6 +27,12 @@ h2 {
 
 .filter-tag-cont {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filter-tags {
+  display: flex;
   gap: 5px;
 }
 
