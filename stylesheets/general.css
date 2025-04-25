@@ -123,8 +123,7 @@ input:focus {
   gap: 10px;
 }
 
-.p-filtered,
-.p-filtered1 {
+.p-filtered {
   display: flex;
   gap: 5px;
   padding: 5px 10px;
@@ -132,28 +131,7 @@ input:focus {
   border-radius: 30px;
 }
 
-.p-filtered:first-child {
-  background-color: var(--red);
-}
-
-.p-filtered:nth-child(2) {
-  background-color: var(--darkPurple);
-}
-
-.p-filtered:nth-child(3) {
-  background-color: var(--yellow);
-}
-
-.p-filtered:last-child {
-  background-color: var(--darkPurple);
-}
-
-.p-filtered1 {
-  background-color: var(--green);
-}
-
-.p-filtered > p,
-.p-filtered1 > p {
+.p-filtered > p {
   font-size: 14px;
   font-weight: 400;
 }
@@ -179,4 +157,22 @@ input:focus {
 
 select {
   font-family: "Lexend";
+}
+
+/* tag colours */
+
+.red {
+  background-color: var(--red);
+}
+
+.purple {
+  background-color: var(--darkPurple);
+}
+
+.yellow {
+  background-color: var(--yellow);
+}
+
+.green {
+  background-color: var(--green);
 }

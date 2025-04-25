@@ -71,8 +71,7 @@ body {
   padding: 2px 6px 6px;
 }
 
-.p-recept-colored,
-.p-recept-colored-4 {
+.p-recept-colored {
   display: flex;
   font-weight: 300;
   padding: 1px 3px;
@@ -82,25 +81,8 @@ body {
   height: 12px;
 }
 
-.p-recept-colored:first-child {
-  background-color: var(--red);
-  width: 20px;
-}
-
-.p-recept-colored:nth-child(2) {
-  background-color: var(--darkPurple);
-  width: 43px;
-}
-
-.p-recept-colored:last-child {
-  background-color: var(--yellow);
-  width: 44px;
-}
-
-.p-recept-colored-4 {
-  padding-top: 0;
-  background-color: var(--green);
-  width: 85px;
+.veg-width {
+  width: 5.5rem;
 }
 
 .port-prep {
