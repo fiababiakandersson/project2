@@ -19,26 +19,15 @@ body {
 .sparade-cont {
   display: flex;
   flex-direction: column;
-  gap: .5rem;
+  gap: 0.5rem;
 }
 
-h4, p {
+h4,
+p {
   font-size: 14px;
   font-weight: 600;
 }
 
-#sparade-select:focus, #gillade-select, #sparade-select {
-  outline: none;
-  box-shadow: none;
-  border: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-}
-
-select {
-  font-family: "Lexend";
-}
 #sparade-select {
   height: 26.4px;
   width: 265px;
@@ -72,18 +61,11 @@ select {
 
 .gillade-txt {
   display: flex;
-  gap: .3rem;
+  gap: 0.3rem;
 }
 
-.gillade-txt>p {
+.gillade-txt > p {
   font-weight: 300;
-}
-
-#gillade-select {
-  background-color: var(--backgroundGrey);
-  color: var(--favoriter-txt-color);
-  font-weight: 400;
-  font-size: 12px;
 }
 
 .catering-cont {
@@ -97,14 +79,14 @@ select {
   gap: 1.5rem;
 }
 
-.catering-option>img {
+.catering-option > img {
   transform: rotate(-180deg);
 }
 
 .catering-card {
   display: flex;
-  gap: .6rem;
-  padding-top: .8rem;
+  gap: 0.6rem;
+  padding-top: 0.8rem;
   margin: 0 auto;
 }
 
@@ -131,18 +113,19 @@ select {
   border-color: var(--darkestPurple);
 }
 
-.catering-item>img {
+.catering-item > img {
   width: 180px;
 }
 
-.catering-item>p {
+.catering-item > p {
   font-size: 12px;
   font-weight: 400;
   padding: 5px 6px;
 }
 
-
-
-
-
-
+.show-all {
+  background-color: var(--backgroundGrey);
+  color: var(--favoriter-txt-color);
+  font-weight: 400;
+  font-size: 12px;
+}

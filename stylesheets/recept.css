@@ -1,12 +1,10 @@
 body {
   background-color: white;
-
 }
 
 .tabItem:nth-child(2) {
   background-color: white;
 }
-
 
 /* recept */
 .recept-container {
@@ -17,7 +15,7 @@ body {
   justify-content: center;
 }
 
-.recept-container>h2 {
+.recept-container > h2 {
   font-size: 14px;
   font-weight: 400;
   margin-left: 3px;
@@ -25,11 +23,9 @@ body {
 
 .card-cont {
   display: flex;
-  gap: .7rem;
+  gap: 0.7rem;
   margin: 0 auto;
 }
-
-
 
 .card-item {
   width: 179px;
@@ -47,7 +43,7 @@ body {
   border-color: var(--darkestPurple);
 }
 
-.card-item>img {
+.card-item > img {
   width: 179px;
   height: 126px;
 }
@@ -119,12 +115,12 @@ body {
   align-items: center;
 }
 
-.coin-tid>img {
+.coin-tid > img {
   width: 14px;
   height: 14px;
 }
 
-.coin-tid>p {
+.coin-tid > p {
   font-size: 8px;
   font-weight: 400;
   color: var(--p-recept-color);
