@@ -14,6 +14,7 @@
   --p-recept-color: #6d6d6d;
   --favoriter-txt-color: #808080;
 }
+
 /* colour variables */
 html {
   background-color: black;
@@ -182,16 +183,20 @@ select {
 
 .red {
   background-color: var(--red);
+  border: none !important;
 }
 
 .purple {
   background-color: var(--darkPurple);
+  border: none !important;
 }
 
 .yellow {
   background-color: var(--yellow);
+  border: none !important;
 }
 
 .green {
   background-color: var(--green);
+  border: none !important;
 }
