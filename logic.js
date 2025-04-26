@@ -27,13 +27,13 @@ window.addEventListener("load", function () {
 
 document.querySelectorAll(".menuItem").forEach((item) => {
   item.addEventListener("click", function (e) {
-    const text = e.target.innerText.trim();
+    const text = e.target.innerText.trim().toLowerCase();
 
-    if (text === "Filtrera") {
+    if (text === "filtrera") {
       window.location.href = "filtrera.html";
-    } else if (text === "Recept") {
+    } else if (text.includes("recept")) {
       window.location.href = "recept.html";
-    } else if (text === "Favoriter") {
+    } else if (text === "favoriter") {
       window.location.href = "favoriter.html";
     }
   });
