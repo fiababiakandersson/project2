@@ -108,3 +108,56 @@ h2 {
   font-size: 14px;
   height: 26.4px;
 }
+
+/* range styling */
+.range {
+  appearance: auto;
+  outline: none;
+  width: 100%;
+  height: 8px;
+  margin-top: 0.25rem;
+  accent-color: black;
+  background-color: var(--darkGrey);
+}
+
+.range::-webkit-slider-thumb {
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: black;
+  cursor: pointer;
+}
+
+.range::-moz-range-thumb {
+  width: 16px;
+  height: 16px;
+  border: none;
+  border-radius: 50%;
+  background: black;
+}
+
+.range::-moz-range-track {
+  height: 8px;
+  background: var(--darkGrey);
+  border-radius: 5px;
+}
+
+.range:focus::-webkit-slider-thumb {
+  outline: 2px solid black;
+  outline-offset: 0.125rem;
+}
+
+.range:focus::-moz-range-thumb {
+  outline: 2px solid black;
+  outline-offset: 0.125rem;
+}
+
+.rangeText {
+  display: flex;
+  justify-content: space-between;
+
+  p {
+    font-size: 10px;
+  }
+}
