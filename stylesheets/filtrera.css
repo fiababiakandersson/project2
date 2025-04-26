@@ -23,6 +23,7 @@ h2 {
 .filterTitle {
   font-size: 14px;
   font-weight: 600;
+  margin-top: 0.5rem;
 }
 
 .filter-tag-cont {
@@ -43,6 +44,7 @@ h2 {
   align-items: center;
   border: 1px solid var(--darkGrey);
   border-radius: 30px;
+  width: fit-content;
 }
 
 .show-more {
@@ -90,6 +92,7 @@ h2 {
 .num-input-cont {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 18px;
 
   div:nth-child(1) {
     width: 105px;

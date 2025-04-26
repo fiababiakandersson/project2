@@ -159,6 +159,25 @@ select {
   font-family: "Lexend";
 }
 
+#sparade-select {
+  height: 26.4px;
+  width: 265px;
+  border-radius: 32px;
+  padding: 5px 10px;
+  color: var(--favoriter-txt-color);
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.select-option {
+  display: flex;
+  border: 1.6px solid #949494;
+  width: 275px;
+  background-color: var(--lighterGrey);
+  border-radius: 32px;
+  padding-right: 15px;
+}
+
 /* tag colours */
 
 .red {

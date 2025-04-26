@@ -13,6 +13,7 @@ window.addEventListener("load", function () {
         item.classList.add("purple");
         break;
       case "glutenfritt":
+      case "gluten":
         item.classList.add("yellow");
         break;
       case "kan göras vegetarisk":
