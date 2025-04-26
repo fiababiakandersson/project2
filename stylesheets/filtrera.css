@@ -232,3 +232,40 @@ input:checked + .printSlider:before {
 .printSlider.round:before {
   border-radius: 50%;
 }
+
+/* action buttons */
+.action-cont {
+  justify-content: space-between;
+  margin-top: 1.5rem;
+  cursor: pointer;
+  display: flex;
+
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  div:nth-child(1) {
+    background-color: var(--lightGrey);
+    border-radius: 20px;
+    color: white;
+    width: 133px;
+    height: 35px;
+
+    img {
+      height: 18px;
+      width: 18px;
+    }
+  }
+
+  div:nth-child(2) {
+    color: var(--darkestPurple);
+    font-weight: 600;
+    width: 155px;
+
+    img {
+      height: 12px;
+    }
+  }
+}
