@@ -14,6 +14,7 @@
   --p-recept-color: #6d6d6d;
   --favoriter-txt-color: #808080;
 }
+
 /* colour variables */
 html {
   background-color: black;
@@ -123,8 +124,7 @@ input:focus {
   gap: 10px;
 }
 
-.p-filtered,
-.p-filtered1 {
+.p-filtered {
   display: flex;
   gap: 5px;
   padding: 5px 10px;
@@ -132,28 +132,7 @@ input:focus {
   border-radius: 30px;
 }
 
-.p-filtered:first-child {
-  background-color: var(--red);
-}
-
-.p-filtered:nth-child(2) {
-  background-color: var(--darkPurple);
-}
-
-.p-filtered:nth-child(3) {
-  background-color: var(--yellow);
-}
-
-.p-filtered:last-child {
-  background-color: var(--darkPurple);
-}
-
-.p-filtered1 {
-  background-color: var(--green);
-}
-
-.p-filtered > p,
-.p-filtered1 > p {
+.p-filtered > p {
   font-size: 14px;
   font-weight: 400;
 }
@@ -179,4 +158,45 @@ input:focus {
 
 select {
   font-family: "Lexend";
+}
+
+#sparade-select {
+  height: 26.4px;
+  width: 265px;
+  border-radius: 32px;
+  padding: 5px 10px;
+  color: var(--favoriter-txt-color);
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.select-option {
+  display: flex;
+  border: 1.6px solid #949494;
+  width: 275px;
+  background-color: var(--lighterGrey);
+  border-radius: 32px;
+  padding-right: 15px;
+}
+
+/* tag colours */
+
+.red {
+  background-color: var(--red);
+  border: none !important;
+}
+
+.purple {
+  background-color: var(--darkPurple);
+  border: none !important;
+}
+
+.yellow {
+  background-color: var(--yellow);
+  border: none !important;
+}
+
+.green {
+  background-color: var(--green);
+  border: none !important;
 }

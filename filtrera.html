@@ -44,25 +44,25 @@
         </div>
         <div class="filtered-search-result">
           <div class="search-results">
-            <div class="p-filtered">
+            <div class="p-filtered filter-tag">
               <p>fisk</p>
               <img src="assets/icons/ix_cancel.png" alt="cancel-x" />
             </div>
-            <div class="p-filtered">
+            <div class="p-filtered filter-tag">
               <p>huvudrätt</p>
               <img src="assets/icons/ix_cancel.png" alt="cancel-x" />
             </div>
-            <div class="p-filtered">
+            <div class="p-filtered filter-tag">
               <p>glutenfritt</p>
               <img src="assets/icons/ix_cancel.png" alt="cancel-x" />
             </div>
-            <div class="p-filtered">
+            <div class="p-filtered filter-tag">
               <p>asiatisk</p>
               <img src="assets/icons/ix_cancel.png" alt="cancel-x" />
             </div>
           </div>
           <div class="search-results">
-            <div class="p-filtered1">
+            <div class="p-filtered filter-tag">
               <p>kan göras vegetarisk</p>
               <img src="assets/icons/ix_cancel.png" alt="cancel-x" />
             </div>
@@ -76,17 +76,209 @@
 
       <h4 class="filterTitle">Matpreferens:</h4>
       <div class="filter-tag-cont">
-        <p class="filter-tag">kött</p>
-        <p class="filter-tag">fågel</p>
-        <p class="filter-tag">fisk</p>
-        <p class="filter-tag">skaldjur</p>
-        <p class="filter-tag">vegetariskt</p>
-        <p class="filter-tag">veganskt</p>
-        <div class="">
+        <div class="filter-tags">
+          <p class="tag">kött</p>
+          <p class="tag">fågel</p>
+          <p class="filter-tag tag">fisk</p>
+          <p class="tag">skaldjur</p>
+          <p class="tag">vegetariskt</p>
+          <p class="tag">veganskt</p>
+        </div>
+        <div>
           <select id="gillade-select" class="show-more">
             <option value="eva-mat">Visa fler</option>
           </select>
           <img src="assets/icons/arrow-up.png" alt="" />
+        </div>
+      </div>
+      <h4 class="filterTitle">Typ av rätt:</h4>
+      <div class="filter-tag-cont">
+        <div class="filter-tags">
+          <p class="tag">förrätt</p>
+          <p class="filter-tag tag">huvudrätt</p>
+          <p class="tag">efterrätt</p>
+          <p class="tag">soppa</p>
+          <p class="tag">tillbehör</p>
+          <p class="tag">snacks</p>
+        </div>
+        <div>
+          <select id="gillade-select" class="show-more">
+            <option value="eva-mat">Visa fler</option>
+          </select>
+          <img src="assets/icons/arrow-up.png" alt="" />
+        </div>
+      </div>
+      <h4 class="filterTitle">Allergier:</h4>
+      <div class="filter-tag-cont">
+        <div class="filter-tags">
+          <p class="filter-tag tag">gluten</p>
+          <p class="tag">laktos</p>
+          <p class="tag">mjölkprotein</p>
+          <p class="tag">nötter</p>
+          <p class="tag">skaldjur</p>
+          <p class="tag">fisk</p>
+        </div>
+        <div>
+          <select id="gillade-select" class="show-more">
+            <option value="eva-mat">Visa fler</option>
+          </select>
+          <img src="assets/icons/arrow-up.png" alt="" />
+        </div>
+      </div>
+
+      <div class="details-cont">
+        <div class="details1">
+          <div class="num-input-cont">
+            <div class="title-to-filter">
+              <h4 class="filterTitle">Antal personer</h4>
+              <input type="number" class="number-input" />
+            </div>
+
+            <div class="title-to-filter">
+              <h4 class="filterTitle">Max. budget för allt</h4>
+              <input type="number" class="number-input" />
+            </div>
+          </div>
+
+          <div class="title-to-filter">
+            <h4 class="filterTitle">Tema</h4>
+            <div class="select-option">
+              <select id="sparade-select">
+                <option value="eva-mat">Sök ingredients...</option>
+              </select>
+              <div>
+                <img src="assets/icons/arrow-vector.png" alt="arrow" />
+              </div>
+            </div>
+          </div>
+
+          <div class="title-to-filter">
+            <h4 class="filterTitle">Ingrediens som ej får förekomma</h4>
+            <div class="select-option">
+              <select id="sparade-select">
+                <option value="eva-mat">Sök ingredients...</option>
+              </select>
+              <div>
+                <img src="assets/icons/arrow-vector.png" alt="arrow" />
+              </div>
+            </div>
+            <p class="filter-tag tag">gluten</p>
+          </div>
+
+          <div class="title-to-filter">
+            <h4 class="filterTitle">Tillagningstid</h4>
+            <input type="range" class="range" />
+            <div class="rangeText">
+              <p>0 h</p>
+              <p>0.5 h</p>
+              <p>1 h</p>
+              <p>2 h</p>
+              <p>3 h</p>
+              <p>6 h</p>
+              <p>12 h</p>
+              <p>24 h</p>
+            </div>
+          </div>
+
+          <div class="title-to-filter-row">
+            <h4 class="filterTitle">Komponentbaserat:</h4>
+            <label class="switch">
+              <input type="checkbox" />
+              <span class="printSlider round"></span>
+            </label>
+          </div>
+        </div>
+
+        <div class="details2">
+          <div>
+            <div class="title-to-filter">
+              <h4 class="filterTitle">Pris per portion</h4>
+              <input type="range" class="range" />
+              <div class="rangeText">
+                <p>0 SEK</p>
+                <p>45 SEK</p>
+                <p>1.000 SEK</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="title-to-filter">
+            <h4 class="filterTitle">Huvudingrediens</h4>
+            <div class="select-option">
+              <select id="sparade-select">
+                <option value="eva-mat">Sök ingredients...</option>
+              </select>
+              <div>
+                <img src="assets/icons/arrow-vector.png" alt="arrow" />
+              </div>
+            </div>
+          </div>
+
+          <div class="title-to-filter">
+            <h4 class="filterTitle">Anpassningsbar till</h4>
+            <div class="select-option">
+              <select id="sparade-select">
+                <option value="eva-mat">Sök ingredients...</option>
+              </select>
+              <div>
+                <img src="assets/icons/arrow-vector.png" alt="arrow" />
+              </div>
+            </div>
+            <p class="filter-tag tag">kan göras vegetarisk</p>
+          </div>
+
+          <div class="title-to-filter">
+            <h4 class="filterTitle">Förberedelsetid</h4>
+            <input type="range" class="range" />
+            <div class="rangeText">
+              <p>0 h</p>
+              <p>0.5 h</p>
+              <p>1 h</p>
+              <p>2 h</p>
+              <p>3 h</p>
+              <p>6 h</p>
+              <p>12 h</p>
+              <p>24 h</p>
+            </div>
+          </div>
+
+          <div class="title-to-filter-row">
+            <h4 class="filterTitle">Förberedbar:</h4>
+            <label class="switch">
+              <input type="checkbox" />
+              <span class="printSlider round"></span>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <h4 class="filterTitle">Typ av event/catering:</h4>
+      <div class="filter-tag-cont">
+        <div class="filter-tags">
+          <p class="tag">bröllop</p>
+          <p class="filter-tag tag">buffé</p>
+          <p class="tag">afterwork</p>
+          <p class="tag">mässa</p>
+          <p class="tag">frukost</p>
+          <p class="tag">patisserie</p>
+        </div>
+        <div>
+          <select id="gillade-select" class="show-more">
+            <option value="eva-mat">Visa fler</option>
+          </select>
+          <img src="assets/icons/arrow-up.png" alt="" />
+        </div>
+      </div>
+
+      <div class="action-cont">
+        <!-- these divs below would have onClick events -->
+        <div>
+          <p>rensa filter</p>
+          <img src="assets/icons/trash.png" alt="rensa" />
+        </div>
+        <div class="menuItem">
+          <p>gå till recept</p>
+          <img src="assets/icons/purple-right-arrow.png" alt="rensa" />
         </div>
       </div>
     </div>
