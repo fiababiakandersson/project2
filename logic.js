@@ -30,7 +30,7 @@ document.querySelectorAll(".menuItem").forEach((item) => {
     const text = e.target.innerText.trim().toLowerCase();
 
     if (text === "filtrera") {
-      window.location.href = "filtrera.html";
+      window.location.href = "index.html";
     } else if (text.includes("recept")) {
       window.location.href = "recept.html";
     } else if (text === "favoriter") {
